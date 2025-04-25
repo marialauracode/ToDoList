@@ -5,20 +5,20 @@ function adicionarTarefa() {
     var inputTarefa = document.getElementById('inputTarefa')
     var tarefa = inputTarefa.value
 
-    if (tarefa == " ") {
+    if (tarefa == "") {
         document.getElementById('mensagemErro').textContent = msgErro
-        document.getElementById('mensagemSucesso').textContent = " "
+        document.getElementById('mensagemSucesso').textContent = ""
     } else {
         document.getElementById('mensagemSucesso').textContent = msgSucesso
-        document.getElementById('mensagemErro').textContent = " " 
+        document.getElementById('mensagemErro').textContent = "" 
 
         var lista = document.getElementById('listaTarefas')
-        var novaTarefa = document.createElement('li')
+        var novaTarefa = document.createElement('li') 
     
         novaTarefa.textContent = tarefa
         lista.appendChild(novaTarefa)
     
-        inputTarefa.value = ""
+        inputTarefa.value = "" 
     }
 
 }
