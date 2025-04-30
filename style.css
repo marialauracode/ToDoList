@@ -10,7 +10,7 @@ body {
     align-items: center;
     text-align: center;
     min-height: 100vh;
-    padding:20px;
+    padding: 20px;
 }
 
 .container {
@@ -57,7 +57,7 @@ button {
     cursor: pointer;
     background-color: #FF6B6B;
     color: white;
-    font-size:16px;
+    font-size: 16px;
 }
 
 button:hover {
@@ -73,40 +73,40 @@ ul {
 
 @media (max-width: 600px) {
 
-    body{
-        padding:10px;
+    body {
+        padding: 10px;
     }
 
-    .container{
-        padding:15px;
+    .container {
+        padding: 15px;
         width: 95%;
-        margin-bottom:26%;
+        margin-bottom: 26%;
 
     }
 
-    h1{
-        font-size:30px;
-        
+    h1 {
+        font-size: 30px;
+
     }
 
-    p{
-        font-size:19px;
-        
+    p {
+        font-size: 19px;
+
     }
 
-    input{
+    input {
         width: 93%;
-        padding:14px;
+        padding: 14px;
     }
 
-    button{
-      
-        font-size:16px;
+    button {
+
+        font-size: 16px;
     }
 
-    ul{
+    ul {
         margin-right: 0;
-        padding-left:0;
+        padding-left: 0;
     }
 
 }
