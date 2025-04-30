@@ -10,7 +10,6 @@ body {
     align-items: center;
     text-align: center;
     min-height: 100vh;
-    overflow: hidden;
     padding:20px;
 }
 
@@ -81,12 +80,13 @@ ul {
     .container{
         padding:15px;
         width: 95%;
-        margin-bottom:30%;
+        margin-bottom:26%;
 
     }
 
     h1{
         font-size:30px;
+        
     }
 
     p{
