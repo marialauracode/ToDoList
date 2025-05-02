@@ -24,7 +24,7 @@
 
 * Adição de tarefas: o usuário pode digitar uma nova tarefa e adicioná-la à lista com um clique;
 
-* Validação de campo: ao tentar adicionar uma tarefa com o campo de texto vazio, o sistema exibe a mensagem de erro "Digite uma tarefa válida", evitando entradas inválidas;
+* Validação de campo: ao tentar adicionar uma tarefa com o campo de texto vazio, o sistema exibe a mensagem de erro "Escreva uma tarefa válida!", evitando entradas inválidas;
 
 * Interface intuitiva: layout limpo e organizado para facilitar a leitura e o controle das tarefas;
 
