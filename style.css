@@ -71,7 +71,7 @@ ul {
     padding: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
 
     body {
         padding: 10px;
